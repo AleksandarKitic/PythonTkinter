@@ -14,8 +14,7 @@ class workSpace:
 
         list1 = insertNumbers()
 
-        tk.Button(root, text="Insert Numbers", bg="#D3D3D3", command=list1.manipulation_numb).grid(row=0, column=1,
-                                                                                                sticky=tk.W, pady=6)
+        tk.Button(root, text="Insert Numbers", bg="#D3D3D3", command=list1.manipulation_numb).grid(row=0, column=1, sticky=tk.W, pady=6)
         root.mainloop()
 
 # FORM FOR INSERTING NUMBERS AND MANIPULATION WITH LIST
@@ -64,10 +63,10 @@ class insertNumbers:
             print(f"Inserting numbers time:\n{times_print} {times_print_pm.strftime('%p')}")
             print('*' * 30)
 
-        tk.Button(root_manipulation, text="Submit", bg="#D3D3D3", fg="red", command=check_numbers).grid(row=4,
-                                                                                        column=1, sticky=tk.W, pady=4)
-        tk.Button(root_manipulation, text="Sort", bg="#D3D3D3", fg="red", command=sorting.sorting_numb).grid(row=4,
-                                                                                        column=2, sticky=tk.W, pady=4)
+        tk.Button(root_manipulation, text="Submit", bg="#D3D3D3", fg="red", command=check_numbers).grid(row=4, column=1, sticky=tk.W, pady=4)
+                                                                                        
+        tk.Button(root_manipulation, text="Sort", bg="#D3D3D3", fg="red", command=sorting.sorting_numb).grid(row=4, column=2, sticky=tk.W, pady=4)
+                                                                                        
 
 # SORTING LISTS AND SORTING, DELETING NUMBERS IN LIST AND AFTER THAT PRINT THE CORRECT NUMBERS. 
 class sortNumbers:

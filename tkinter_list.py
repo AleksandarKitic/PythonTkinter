@@ -69,7 +69,7 @@ class insertNumbers:
         tk.Button(root_manipulation, text="Sort", bg="#D3D3D3", fg="red", command=sorting.sorting_numb).grid(row=4,
                                                                                         column=2, sticky=tk.W, pady=4)
 
-# SORTING LISTS AND SORTING, DELETING NUMBERS IN LIST AND AFTER THATH PRINT THE CORRECT NUMBERS. 
+# SORTING LISTS AND SORTING, DELETING NUMBERS IN LIST AND AFTER THAT PRINT THE CORRECT NUMBERS. 
 class sortNumbers:
     def sorting_numb(self):
         nested_list = numbers1
